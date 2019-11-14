@@ -1,0 +1,39 @@
+
+$neutral-dark-violet: hsl(260, 8%, 14%);
+footer {
+    background: $neutral-dark-violet;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px 30px;
+
+    a > svg path {
+        fill: #fff;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 10px ;
+    }
+
+
+    .media {
+        margin: 20px 0 40px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+}
